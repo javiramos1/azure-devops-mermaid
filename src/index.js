@@ -8,11 +8,10 @@ const isProd = process.env.NODE_ENV == 'production'
 if (isProd) {
 	await (async function () {
 		SDK.init({ loaded: false })
+
 		Mermaid.initialize({ startOnLoad: false });
 
-		console.log("start");
-
-		SDK.register("mermaid_viewer", function (context) {
+		SDK.register("mermaid_renderer", function (context) {
 			return mermaidViewer;
 		});
 

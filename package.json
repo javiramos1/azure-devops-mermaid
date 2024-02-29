@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "azure-devops-extension-sdk": "^4.0.2",
+    "commonmark": "^0.31.0",
     "mermaid": "^10.8.0"
   },
   "devDependencies": {
@@ -17,7 +18,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "build": "webpack --mode=production --node-env=production && npx tfx-cli extension create",
     "serve": "webpack serve --mode=development --node-env=development"
   },
   "keywords": [],

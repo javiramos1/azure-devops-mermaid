@@ -3,10 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <title>Getting Started</title>
+    <style>
+      body {
+        font-family: "Segoe UI VSS (Regular)","Segoe UI","-apple-system",BlinkMacSystemFont,Roboto,"Helvetica Neue",Helvetica,Ubuntu,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        color: rgba(0,0,0,1);
+        color: rgba(var(--palette-neutral-100,0, 0, 0),1);
+        font-size: 12px;
+        background-color: rgba(255,255,255,1);
+        background-color: var(--background-color,rgba(255, 255, 255, 1));
+        overflow: hidden;
+        margin: 0;
+        padding: 0
+      }
+      #md-mermaid-viewer {
+        padding: 20px;
+      }
+    </style>
   </head>
-  <body>
+  <body style="overflow-y: scroll;overflow-x: scroll;">
     <div id="md-mermaid-viewer">
-      
     </div>
   </body>
 </html>

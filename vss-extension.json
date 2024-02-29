@@ -1,0 +1,70 @@
+{
+    "manifestVersion": 1,
+    "id": "markdown-mermaid-renderer",
+    "version": "1.0.0",
+    "name": "Markdown Mermaid Renderer",
+    "description": "A Mermaid Renderer",
+    "public": false,
+    "publisher": "talisca",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "scopes": [
+        "vso.code"
+    ],
+    "categories": [
+        "Azure Repos"
+    ],
+    "tags": [
+        "mermaid",
+        "diagrams",
+        "render",
+        "markdown",
+        "preview"
+    ],
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/rafaelprd/azure-devops-markdown-mermaid"
+    },
+    "icons": {
+        "default": "marketplace/logo.png"
+    },
+    "contributions": [
+        {
+            "id": "mermaid-renderer",
+            "type": "ms.vss-code-web.content-renderer",
+            "description": "Shows a mermaid renderer for .mmd files",
+            "targets": [
+                "ms.vss-code-web.content-renderer-collection"
+            ],
+            "properties": {
+                "uri": "dist/index.html",
+                "fileExtensions": [
+                    "md"
+                ],
+                "mimeTypes": [
+                    "text/html"
+                ],
+                "defaultBehavior": "showRenderedContent",
+                "registeredObjectId": "mermaid_renderer"
+            }
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "marketplace/overview.md"
+        }
+    },
+    "files": [
+        {
+            "path": "dist",
+            "addressable": true
+        },
+        {
+            "path": "marketplace",
+            "addressable": true
+        }
+    ]
+}
