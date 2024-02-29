@@ -1,0 +1,26 @@
+{
+  "name": "azure-devops-markdown-mermaid",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "azure-devops-extension-sdk": "^4.0.2",
+    "mermaid": "^10.8.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "http-server": "^14.1.1",
+    "raw-loader": "^4.0.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "webpack serve --mode=development --node-env=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
