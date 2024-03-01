@@ -6,7 +6,6 @@
 
 - **Integrated Rendering**: Render Mermaid code tags anywhere in a Markdown file, allowing for the inclusion of complex charts in your documentation with ease.
 - **Azure DevOps Compatibility**: Specifically designed to integrate seamlessly with the Azure DevOps environment, providing a smooth user experience.
-- **Real-Time Visualization**: View changes to your Mermaid charts in real-time within the Azure DevOps environment, ensuring your diagrams are always up-to-date.
 - **Support for Various Chart Types**: Supports a wide range of Mermaid chart types, including flowcharts, sequence diagrams, Gantt charts, and more.
 - **Ease of Use**: Simple to install and use, enabling users to start creating Mermaid charts in their Markdown files quickly.
 
@@ -29,3 +28,13 @@ For more information and detailed instructions, refer to the official plugin doc
 
 ## Usage
 
+Use backticks with mermaid as language identifier
+
+```
+  ```mermaid
+  sequenceDiagram
+      Alice->>John: Hello John, how are you?
+      John-->>Alice: Great!
+     Alice-)John: See you later!
+  ```
+```

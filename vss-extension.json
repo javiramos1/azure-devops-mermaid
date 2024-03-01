@@ -1,10 +1,10 @@
 {
     "manifestVersion": 1,
     "id": "markdown-mermaid-renderer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Markdown Mermaid Renderer",
     "description": "A Mermaid Renderer",
-    "public": false,
+    "public": true,
     "publisher": "talisca",
     "targets": [
         {
