@@ -22,6 +22,6 @@
     "serve": "webpack serve --mode=development --node-env=development"
   },
   "keywords": [],
-  "author": "",
+  "author": "rafaelprd",
   "license": "ISC"
 }
