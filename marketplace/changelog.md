@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.1 (2024-08-30)
+## 1.1.0 (2024-09-12)
 
 ### Added
 - Reference Mermaid 10.9.0
