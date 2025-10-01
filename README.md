@@ -9,6 +9,14 @@
 
 **Azure DevOps Mermaid** is a powerful extension that brings beautiful, interactive Mermaid diagrams to your Azure DevOps repositories. Seamlessly integrated with Azure Repos, it automatically renders Mermaid code blocks in your Markdown files, transforming plain text into stunning visualizations.
 
+> **Note**: This project is a fork of [rafaelprd/azure-devops-markdown-mermaid](https://github.com/rafaelprd/azure-devops-markdown-mermaid), which is no longer maintained. It has been completely rebranded, modernized, and greatly improved with:
+> - GitHub Flavored Markdown support (tables, task lists, strikethrough)
+> - Updated to Mermaid v11 with latest features
+> - Professional table styling
+> - Comprehensive testing framework
+> - Modern build system and dependencies
+> - Complete documentation rewrite
+
 ## ✨ Features
 
 ### 🎯 Core Capabilities
@@ -133,6 +141,34 @@ npm test
 npm run build
 ```
 
+**Or use the Makefile for convenience:**
+
+```bash
+# Install dependencies
+make install
+
+# Start development server
+make dev
+
+# Run tests
+make test
+
+# Run tests in watch mode
+make test-watch
+
+# Build for production
+make build
+
+# Package extension
+make package
+
+# Clean build artifacts
+make clean
+
+# Show all available commands
+make help
+```
+
 ### Project Structure
 
 ```
@@ -218,9 +254,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
+- Forked from [rafaelprd/azure-devops-markdown-mermaid](https://github.com/rafaelprd/azure-devops-markdown-mermaid) - Original concept and implementation
 - Built with [Mermaid.js](https://mermaid.js.org/) - The incredible diagramming library
 - Markdown parsing powered by [Marked](https://marked.js.org/)
-- Azure DevOps Extension SDK
+- Azure DevOps Extension SDK by Microsoft
 
 ## 📧 Support
 
