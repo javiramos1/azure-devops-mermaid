@@ -4,6 +4,8 @@
 
 [![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://marketplace.visualstudio.com/items?itemName=jramos.azure-devops-mermaid)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![CI/CD](https://github.com/javiramos1/azure-devops-mermaid/actions/workflows/ci.yml/badge.svg)](https://github.com/javiramos1/azure-devops-mermaid/actions/workflows/ci.yml)
+[![Release](https://github.com/javiramos1/azure-devops-mermaid/actions/workflows/release.yml/badge.svg)](https://github.com/javiramos1/azure-devops-mermaid/actions/workflows/release.yml)
 
 ## Overview
 
