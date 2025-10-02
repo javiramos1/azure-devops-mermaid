@@ -265,7 +265,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/javiramos1/azure-devops-mermaid/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/javiramos1/azure-devops-mermaid/discussions)
-- **Email**: javier.ramos1@gmail.com
 
 ## ⭐ Show Your Support
 
@@ -276,7 +275,5 @@ If you find this extension helpful, please consider:
 - 🐛 Reporting bugs or suggesting features
 
 ---
-
-**Made with ❤️ by jramos**
 
 [Marketplace](https://marketplace.visualstudio.com/items?itemName=jramos.azure-devops-mermaid) • [GitHub](https://github.com/javiramos1/azure-devops-mermaid) • [Issues](https://github.com/javiramos1/azure-devops-mermaid/issues)
