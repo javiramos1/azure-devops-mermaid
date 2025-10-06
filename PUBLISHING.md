@@ -2,19 +2,15 @@
 
 This guide will help you publish the Azure DevOps Mermaid extension to the marketplace.
 
-> **📌 Don't Have an Azure DevOps Account?**  
-> See [PUBLISHING_WITHOUT_ACCOUNT.md](PUBLISHING_WITHOUT_ACCOUNT.md) for your options.  
-> **TL;DR:** Azure DevOps is completely FREE - create an account at https://dev.azure.com/ (takes 5 minutes, no credit card required)
-
 ## Prerequisites
 
 ### 1. Create a Publisher Account
 
 1. Go to [Visual Studio Marketplace Publisher Management](https://marketplace.visualstudio.com/manage/publishers)
 2. Click **Create Publisher**
-3. Use the publisher ID: **jramos**
+3. Use the publisher ID: **javierramos1**
 4. Fill in the required information:
-   - Display Name: jramos or your preferred name
+   - Display Name: javierramos1 or your preferred name
    - Description: Professional extensions for Azure DevOps
 5. Verify your publisher account
 
@@ -48,7 +44,7 @@ npm install
 npm run build
 ```
 
-This creates a `.vsix` file in the project root: `jramos.azure-devops-mermaid-2.0.0.vsix`
+This creates a `.vsix` file in the project root: `javierramos1.azure-devops-mermaid-2.0.0.vsix`
 
 ### Step 2: Login to TFX
 
@@ -66,16 +62,16 @@ tfx login
 ```bash
 # Publish directly with token
 tfx extension publish \
-  --publisher jramos \
+  --publisher javierramos1 \
   --token YOUR_PAT_HERE \
-  --vsix jramos.azure-devops-mermaid-2.0.0.vsix
+  --vsix javierramos1.azure-devops-mermaid-2.0.0.vsix
 ```
 
 ### Step 3: Verify the Extension
 
 After publishing:
 
-1. Go to [Marketplace Publisher Management](https://marketplace.visualstudio.com/manage/publishers/jramos)
+1. Go to [Marketplace Publisher Management](https://marketplace.visualstudio.com/manage/publishers/javierramos1)
 2. Find your extension in the list
 3. Check the status (it will be **private** by default)
 
@@ -88,7 +84,7 @@ After publishing:
 4. Or **Share** with specific Azure DevOps organizations for testing
 
 **Direct Link:**
-`https://marketplace.visualstudio.com/items?itemName=jramos.azure-devops-mermaid`
+`https://marketplace.visualstudio.com/items?itemName=javierramos1.azure-devops-mermaid`
 
 ## Testing Before Going Public
 
@@ -134,9 +130,9 @@ To publish updates:
    ```bash
    npm run build
    tfx extension publish \
-     --publisher jramos \
+     --publisher javierramos1 \
      --token YOUR_PAT_HERE \
-     --vsix jramos.azure-devops-mermaid-2.0.1.vsix
+     --vsix javierramos1.azure-devops-mermaid-2.0.1.vsix
    ```
 
 The marketplace will automatically update for all users.
@@ -144,10 +140,10 @@ The marketplace will automatically update for all users.
 ## Troubleshooting
 
 ### Publisher Not Found
-**Problem:** `Error: Failed to find publisher 'jramos'`
+**Problem:** `Error: Failed to find publisher 'javierramos1'`
 
 **Solution:**
-- Verify you created the publisher account with ID **jramos**
+- Verify you created the publisher account with ID **javierramos1**
 - Check you're logged into the correct Microsoft account
 - Wait a few minutes for the publisher to propagate
 
@@ -160,7 +156,7 @@ The marketplace will automatically update for all users.
 - Check you're using the correct organization
 
 ### Extension Already Exists
-**Problem:** `Error: Extension 'jramos.azure-devops-mermaid' already exists`
+**Problem:** `Error: Extension 'javierramos1.azure-devops-mermaid' already exists`
 
 **Solution:**
 - If taking over from original extension, change the ID in `vss-extension.json`
@@ -300,21 +296,21 @@ npm run dev
 npm run build
 
 # Publish extension
-tfx extension publish --publisher jramos --token $PAT --vsix *.vsix
+tfx extension publish --publisher javierramos1 --token $PAT --vsix *.vsix
 
 # Update existing extension
 tfx extension publish --vsix *.vsix --token $PAT --override
 
 # Share with organization
-tfx extension share --publisher jramos --extension-id azure-devops-mermaid \
+tfx extension share --publisher javierramos1 --extension-id azure-devops-mermaid \
   --share-with YOUR_ORG_NAME --token $PAT
 ```
 
 ### URLs to Bookmark
 
-- Publisher Portal: https://marketplace.visualstudio.com/manage/publishers/jramos
-- Extension Page: https://marketplace.visualstudio.com/items?itemName=jramos.azure-devops-mermaid
-- Analytics: https://marketplace.visualstudio.com/manage/publishers/jramos/extensions/azure-devops-mermaid/hub
+- Publisher Portal: https://marketplace.visualstudio.com/manage/publishers/javierramos1
+- Extension Page: https://marketplace.visualstudio.com/items?itemName=javierramos1.azure-devops-mermaid
+- Analytics: https://marketplace.visualstudio.com/manage/publishers/javierramos1/extensions/azure-devops-mermaid/hub
 
 ## Success Checklist
 
