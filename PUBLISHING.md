@@ -2,6 +2,10 @@
 
 This guide will help you publish the Azure DevOps Mermaid extension to the marketplace.
 
+> **📌 Don't Have an Azure DevOps Account?**  
+> See [PUBLISHING_WITHOUT_ACCOUNT.md](PUBLISHING_WITHOUT_ACCOUNT.md) for your options.  
+> **TL;DR:** Azure DevOps is completely FREE - create an account at https://dev.azure.com/ (takes 5 minutes, no credit card required)
+
 ## Prerequisites
 
 ### 1. Create a Publisher Account
